@@ -5,7 +5,7 @@ This is a compact application designed to connect to a microscope camera, offeri
 ## Running the application
 
 ```bash
-docker run -d -p 3000:3000 stanislavjochman/microscope-camera
+docker run -d -p 3000:3000 stanislavjochman/microscope-camera:v1.0
 ```
 
 ## Custom docker-compose.yml
