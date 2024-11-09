@@ -14,7 +14,7 @@ docker run -d -p 3000:3000 stanislavjochman/microscope-camera
 ---
 services:
   webserver:
-    image: stanislavjochman/microscope-camera
+    image: stanislavjochman/microscope-camera:v1.0
     restart: unless-stopped
     ports:
       - "80:3000"
